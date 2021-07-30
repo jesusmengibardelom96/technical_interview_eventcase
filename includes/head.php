@@ -1,4 +1,5 @@
 <?php
+include ("db_conn.php");
 include ("db_functions.php");
 
 // DB Connection
