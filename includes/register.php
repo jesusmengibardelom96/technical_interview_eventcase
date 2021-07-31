@@ -6,7 +6,7 @@ session_start();
 <div class="container login-container">
     <div class="row">
         <div class="col-md-6 login-form-2">
-            <h3>Login</h3>
+            <h3>Register</h3>
             <form>
                 <div class="form-group">
                     <input type="email" class="form-control" placeholder="eMail *" value="" />
