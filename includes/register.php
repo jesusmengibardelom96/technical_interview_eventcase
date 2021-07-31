@@ -1,6 +1,6 @@
 <?php 
 session_start();
-
+include "head.php";
 ?>
 
 <div class="container login-container">
@@ -30,7 +30,7 @@ session_start();
                     <input type="submit" class="btnSubmit" value="Register" />
                 </div>
                 <div class="form-group">
-                    <a href="login.php" class="Login">You have an account?</a>
+                    <a href="login.php" class="ForgetPwd">You have an account?</a>
                 </div>
             </form>
         </div>

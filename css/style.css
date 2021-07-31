@@ -2,6 +2,20 @@
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+.login-container .row{
+    justify-content: center;
+}
+
+.form-group{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#link-group, #button-group {
+    text-align: center;
+}
+
 .login-form-1{
     padding: 5%;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);

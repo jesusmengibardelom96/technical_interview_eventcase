@@ -1,6 +1,6 @@
 <?php 
 session_start();
-
+include "head.php";
 ?>
 
 <div class="container login-container">
@@ -14,13 +14,12 @@ session_start();
                 <div class="form-group">
                     <input type="password" class="form-control" placeholder="Password *" value="" />
                 </div>
-                <div class="form-group">
+                <div id="button-group" class="form-group">
                     <input type="submit" class="btnSubmit" value="Login" />
                 </div>
-                <div class="form-group">
-                    <a href="registration.php" class="register">Not registered yet?</a>
-                </div>
-                <div class="form-group">
+                <div id="link-group" class="form-group">
+                    <a href="register.php" class="ForgetPwd">Not registered yet?</a>
+                    <span> | </span>
                     <a href="password.php" class="ForgetPwd">Forget Password?</a>
                 </div>
             </form>
