@@ -1,6 +1,18 @@
+#login-body {
+    background-image: url("../img/bg/filmaffinity_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#login-bg-image {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
 .login-container{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .login-container .row{
@@ -19,6 +31,7 @@
 .login-form-1{
     padding: 5%;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background: #FFF;
 }
 .login-form-1 h3{
     text-align: center;
