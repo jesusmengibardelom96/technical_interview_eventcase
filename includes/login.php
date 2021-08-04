@@ -18,7 +18,7 @@ if(!empty($_POST['email']) || !empty($_POST['password'])){
         $_SESSION["birthday_date"] = $clients["birthday_date"];
         $_SESSION["delivery_address"] = $clients["delivery_address"];
         
-        header("Location: main.php");
+        header("Location: main_includes.php");
     }else{
         $error_msg = "The data is wrong, please try again";
     }

@@ -1,3 +1,4 @@
+/* Login */
 #login-body {
     background-image: url("../img/bg/filmaffinity_bg.jpg");
     background-size: cover;
@@ -77,3 +78,100 @@
     font-weight: 600;
     text-decoration: none;
 }
+/* Login */
+
+/* Main */
+
+.filmContainer {
+    width: 100%;
+    padding: 40px;
+}
+
+.filmContainer .film {
+    border: 1px solid #0062cc;
+    height: 500px;
+    min-height: 250px;
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.filmContainer .bg_action_film{
+    
+}
+
+.filmContainer .action_film button{
+    border-radius: 40px;
+}
+
+.filmContainer .films_film {
+    position: relative;
+    border: 1px solid #0062cc;
+    height: 500px;
+    min-height: 250px;
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.filmContainer .films_film .bg_action_film {
+    background-image: url("../img/no_image_available_filmaffinity.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.filmContainer .films_film .film_actions_delete_update {
+    display: none;
+    position: absolute;
+}
+
+.filmContainer .films_film .film_actions_delete_update .button_action_group {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filmContainer .films_film .film_actions_delete_update .button_action_group button {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.filmContainer .films_film .film_actions_delete_update .button_action_group form {
+    margin-bottom: 0;
+}
+
+.filmContainer .films_film:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.filmContainer .films_film:hover .film_actions_delete_update{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.filmContainer .films_film .delete_action_button input{
+    position: relative;
+}
+
+.filmContainer .films_film .delete_action_button svg{
+    position: absolute;
+}
+
+/* Main */
