@@ -10,7 +10,7 @@ if(!empty($_POST['email']) || !empty($_POST['password'])){
     $clients = db_mysql_fetch_array($clients_query);
     
     if(!empty($clients)){
-        
+        $_SESSION["id_client"] = $clients["id_client"];
         $_SESSION["username"] = $clients["name"];
         $_SESSION["email"] = $clients["email"];
         $_SESSION["password"] = $clients["client_password"];
